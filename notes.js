@@ -41,7 +41,7 @@ var readNote = (title) =>{
 
     var notes = fetchNotes();
     var filteredNotes = notes.filter((note) => note.title === title);
-    return filteredNotes;
+    return filteredNotes[0];
 };
 
 var deleteNote = (title) => {

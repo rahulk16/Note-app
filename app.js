@@ -54,7 +54,7 @@ if(command === 'add'){
   noteList.forEach((note) => console.log('title:',note.title,' | ','body:',note.body,'\n------'));
 }else if (command === 'read') {
   var note = notes.readNote(argv.title);
-  if(note!=undefined){
+  if(note){
     console.log('Note found\n----','title:',note.title,'\n','body:',note.body);
   }else {
     console.log('Note not found!');
