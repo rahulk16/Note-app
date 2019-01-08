@@ -61,7 +61,7 @@ if(command === 'add'){
   }
 }else if (command === 'delete') {
   var noteRemoved = notes.deleteNote(argv.title);
-  var message = noteRemoved ? "Note is removed." : "Note is not removed!!";
+  var message = noteRemoved ? "Note is removed now." : "Note is not removed!!";
   console.log(message);
 }
 else {
