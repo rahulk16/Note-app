@@ -1,4 +1,4 @@
-// console.log('Starting notes...');
+console.log('Starting notes...');
 const fs = require('fs');
 
 var fetchNotes = () => {
